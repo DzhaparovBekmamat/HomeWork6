@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:text="Добро пожаловать!"
+        android:text="Добро пожаловать !"
         android:textColor="@color/white"
         android:textSize="30dp"
         android:textStyle="bold" />
@@ -49,9 +49,9 @@
         android:background="@drawable/rounded_object"
         android:backgroundTint="@color/white"
         android:hint="Введите вашу почту"
-        android:singleLine="true"
         android:paddingVertical="10dp"
         android:paddingStart="15dp"
+        android:singleLine="true"
         android:textColor="@color/gray"
         android:textStyle="bold" />
 
@@ -86,6 +86,7 @@
         android:textStyle="bold" />
 
     <TextView
+        android:id="@+id/zp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/btn"
